@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>布里茨中国官网</title>
+
+
+        <link href="../css/bootstrap.min.css" rel="stylesheet"><!-- Bootstrap Core CSS -->
+        <link href="../css/style.css" rel="stylesheet"><!-- Custom CSS -->
+        <link href="../font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"><!-- Custom Fonts -->
+
+        <script src="../js/jquery.js"></script> <!-- jQuery -->
+
+        <script type="text/javascript" src="../js/jquery.fullPage.js"></script><!-- horizontal slide JavaScript -->
+        <script src="../js/bootstrap.min.js"></script><!-- Bootstrap Core JavaScript -->
+        <script type="text/javascript" src="../js/jquery.fullPage.js"></script><!-- horizontal slide JavaScript -->
+        <script type="text/javascript" src="../js/jquery.flexslider-min.js"></script>
+        <script src="../js/scrollIt.min.js" type="text/javascript"></script><!-- scrollIt JS -->
+        <script src="../js/script.js"></script><!-- Custom JS -->
+
+
+
+    </head>
+
+    <body>
+
+
+        <!-- =================SIDE BAR===================== -->
+
+        <div class="side-nav">
+
+            <a href="../index.html"><div class="home-btn"><img src="../img/icons/logo1.png" /></div></a>
+
+            <ul>
+                <a href="../camper-selector/camper-list.html"><li><img src="../img/icons/campervan.png"/>房车</li></a>
+                <a href="route-home.html"><li style="background-color:#f58026;"><img src="../img/icons/route.png"/>路线</li></a>
+                <a href="../blog/blog-home.html"><li><img src="../img/icons/blog.png"/>博客</li></a>
+                <a href="../deals/deals-home.html"><li><img src="../img/icons/deals.png"/>优惠</li></a>
+                <a href="../info/info-home.html"><li><img src="../img/icons/info.png"/>信息</li></a>
+            </ul>
+
+        </div>
+
+        <!-- =================TOP BAR===================== -->
+
+        <div class="top-bar-wrapper top-right-floating">
+
+            <div class="quote-btn">
+                <img src="../img/quote-btn-bg.jpg"/>
+                <div class="quote-btn-text">免费</br>报价</div>
+        </div>
+
+        <div class="quick-contact">
+            <div id="wechat-qrcode-btn" class="quick-social">
+                <img src="../img/icons/wechat.png"/>
+            </div>
+            <a target="_blank" href="http://weibo.com/BritzCampervan">
+                <div class="quick-social"><img src="../img/icons/weibo.png" style="width:25px;"/></div>
+            </a>
+            <a href="../info/info-contact-us.html"><div class="quick-contactus">联系</br>我们</div></a>
+        </div>
+
+    <div id="wechat-qrcode"><img src="../img/qrcode.bmp"/></div>
+
+    </div>
+
+<div class="bottom-right-floating">
+    <div class="watch-video-wrapper">
+        <div id="watch-video" class="watch-video-btn">
+            <img src="../img/icons/youku.png"/>
+            <span>观看视频</span>
+        </div>
+        <div class="video-opened">
+            <div id="close-video" class="exit-btn"></div>
+            <iframe height=360 src="http://player.youku.com/embed/XNjUwNTMxNTg0" frameborder=0 allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- =================MAIN BODY===================== -->
+
+<div class="main-body">
+
+    <!-- Header -->
+
+    <!-- =========================BODY-BG=========================== -->
+    <div class="body-bg" style="z-index:0;">
+        <iframe width='100%' height='100%' frameBorder='0' src='https://a.tiles.mapbox.com/v4/bigshaw.l8o2lnhm/attribution,zoompan,geocoder,share.html?access_token=pk.eyJ1IjoiYmlnc2hhdyIsImEiOiJkWFRxNmR3In0.v-d2S5hkW_-XYXWO_dKwrg'></iframe>
+
+    </div>
+
+
+    <div class="col-xs-12 col-md-6 blog-page-top">
+
+        <div class="breadcrumbs on-article-page">
+            <a href="route-home.html">路线</a>
+            <span>&nbsp; > &nbsp;</span>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                <img class="selected" src="../img/icons/NZ(orange).png"/>新西兰&nbsp;
+                <span class="caret"></span>
+            </a>
+            <span>&nbsp; > &nbsp;</span>
+            <span>布里茨北岛中部之旅很长非常长长的不能再长的例子</span>
+
+            <div id="collapes-route-details" class="exit-btn" data-scroll-goto="1"></div>
+
+        </div>
+
+        <div class="breadcrumbs-bg with-date-selector"></div>
+
+        <div class="paragraph-boxes date-selector-container navbar-fixed-top" style="">
+            <div class="see-route-details"><i class="fa fa-long-arrow-down"></i>查看攻略</div>
+            <div class="date-selector">
+                <span>天：</span>
+                <a href="#" id="left-button"><span class="days-left-right"><i class="fa fa-caret-left"></i></span></a>
+                <div class="days-wrapper">
+                    <ul id="days-container">
+                        <a data-scroll-nav="1"><li>1</li></a>
+                        <a data-scroll-nav="2"><li>2</li></a>
+                        <a data-scroll-nav="3"><li>3</li></a>
+                        <a data-scroll-nav="4"><li>4</li></a>
+                        <a data-scroll-nav="5"><li>5</li></a>
+                        <a data-scroll-nav="6"><li>6</li></a>
+                        <a data-scroll-nav="7"><li>7</li></a>
+                        <a data-scroll-nav="8"><li>8</li></a>
+                        <a data-scroll-nav="9"><li>9</li></a>
+                    </ul>
+                </div>
+                <a href="#" id="right-button"><span class="days-left-right" style="position: absolute; right: -5px; padding: 17px 12px; "><i class="fa fa-caret-right"></i></span></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- =========================BODY-BG END=========================== -->
+
+
+
+
+
+
+    <div class="col-xs-12 col-md-6 article-content-wrapper with-date-selector">
+
+        <article data-scroll-index="1" class="paragraph-boxes">
+
+            <div class="paragraph-title">
+                <div class="day-number">第 <h4>1</h4> 天</div>
+                <div class="title"><h4>第一天从哪里到哪里的标题长长长长长长长长长长长长长长长</h4></div>
+            </div>
+
+            <div class="sup-info-bar">
+                <div class="distance-time"><i class="fa fa-road"></i>距离：103公里</div>
+                <div class="distance-time"><i class="fa fa-clock-o"></i>1小时20分钟</div>
+            </div>
+
+            <p>回溯路线，并返回北到陶波湖，在新西兰最大的湖泊。这使得陶波非常适合水上活动木筏，从钓鳟鱼，帆船，滑水，喷射快艇，皮划艇，帆伞运动和水上摩托艇。再加上跳伞，骑马，骑山地自行车，登山，速降，攀岩，它是很难做出选择哪一个活动的选择。</p>
+
+            <p>当你有你的肾上腺素爆发的，头在新西兰，壮观的胡卡瀑布参观人数最多的自然的吸引力。在胡卡瀑布，怀卡托河挤过一个20米宽的峡谷和超过20米的跌落。查看瀑布从两侧（有一个步行桥跨越）。然后，如果你一天一直没有行动包装不够，通过蹦极跳下平台，在怀卡托河完成它，还是觉得权力的胡卡瀑布近距离的喷射船。</p>
+
+            <p>今晚留在陶波的陶波四季猕猴桃假日公园。</p>
+
+            <div class="image-with-caption">                   
+                <img src="http://www.letstrekaustralia.com/images/big_H6139C561.jpg">
+                <span class="caption">这是什么什么地方blabla图片简单介绍</span>
+            </div>
+
+            <p>回溯路线，并返回北到陶波湖，在新西兰最大的湖泊。这使得陶波非常适合水上活动木筏，从钓鳟鱼，帆船，滑水，喷射快艇，皮划艇，帆伞运动和水上摩托艇。再加上跳伞，骑马，骑山地自行车，登山，速降，攀岩，它是很难做出选择哪一个活动的选择。</p>
+
+        </article>
+
+
+        <article data-scroll-index="2" class="paragraph-boxes">
+
+            <div class="paragraph-title">
+                <div class="day-number">第 <h4>2</h4> 天</div>
+                <div class="title"><h4>第一天从哪里到哪里的标题长长长长</h4></div>
+            </div>
+
+            <div class="sup-info-bar">
+                <div class="distance-time"><i class="fa fa-road"></i>距离：103公里</div>
+                <div class="distance-time"><i class="fa fa-clock-o"></i>1小时20分钟</div>
+            </div>
+
+
+            <iframe height=360 src="http://player.youku.com/embed/XNjUwNTMxNTg0" frameborder=0 allowfullscreen></iframe>
+
+            <p>回溯路线，并返回北到陶波湖，在新西兰最大的湖泊。这使得陶波非常适合水上活动木筏，从钓鳟鱼，帆船，滑水，喷射快艇，皮划艇，帆伞运动和水上摩托艇。再加上跳伞，骑马，骑山地自行车，登山，速降，攀岩，它是很难做出选择哪一个活动的选择。</p>
+
+            <p>当你有你的肾上腺素爆发的，头在新西兰，壮观的胡卡瀑布参观人数最多的自然的吸引力。在胡卡瀑布，怀卡托河挤过一个20米宽的峡谷和超过20米的跌落。查看瀑布从两侧（有一个步行桥跨越）。然后，如果你一天一直没有行动包装不够，通过蹦极跳下平台，在怀卡托河完成它，还是觉得权力的胡卡瀑布近距离的喷射船。</p>
+
+            <p>今晚留在陶波的陶波四季猕猴桃假日公园。</p>
+
+        </article>
+
+        <article data-scroll-index="3" class="paragraph-boxes">
+
+            <div class="paragraph-title">
+                <div class="day-number">第 <h4>3</h4> 天</div>
+                <div class="title"><h4>第一天从哪里到哪里的标题长长长长</h4></div>
+            </div>
+
+            <div class="sup-info-bar">
+                <div class="distance-time"><i class="fa fa-road"></i>距离：103公里</div>
+                <div class="distance-time"><i class="fa fa-clock-o"></i>1小时20分钟</div>
+            </div>
+
+            <div class="image-with-caption">              
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRIqfxsRfgW0FEDHhOv-TYrlP6wpzNfsukClFUmlOR6hhDXsQz_Pg">
+                <span class="caption">这是什么什么地方blabla图片简单介绍</span>
+            </div>
+
+
+            <p>回溯路线，并返回北到陶波湖，在新西兰最大的湖泊。这使得陶波非常适合水上活动木筏，从钓鳟鱼，帆船，滑水，喷射快艇，皮划艇，帆伞运动和水上摩托艇。再加上跳伞，骑马，骑山地自行车，登山，速降，攀岩，它是很难做出选择哪一个活动的选择。</p>
+
+            <p>当你有你的肾上腺素爆发的，头在新西兰，壮观的胡卡瀑布参观人数最多的自然的吸引力。在胡卡瀑布，怀卡托河挤过一个20米宽的峡谷和超过20米的跌落。查看瀑布从两侧（有一个步行桥跨越）。然后，如果你一天一直没有行动包装不够，通过蹦极跳下平台，在怀卡托河完成它，还是觉得权力的胡卡瀑布近距离的喷射船。</p>
+
+            <p>今晚留在陶波的陶波四季猕猴桃假日公园。</p>
+
+        </article>
+
+        <div class="btn-section" style="margin:0">
+            <button type="button" class="btn btn-britz-orange btn-lg">马上报价！
+                <img src="../img/icons/go-icon.png" style="width:19px;">
+            </button>
+
+            <button type="button" class="btn btn-default btn-lg share-btn" 
+                    data-toggle="toggle" data-target="#demo">
+                <i class="fa fa-share"></i> 分享
+            </button>
+
+            <div id="demo" class="">
+                <div class="share-to"><i class="fa fa-weibo"></i></div>
+                <div class="share-to"><i class="fa fa-wechat"></i></div>
+            </div>
+
+            <div data-scroll-goto="1" class="back-to-top-btn"><i class="fa fa-angle-up"></i></div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!--======================================================-->
+    <div class="show-when-penal-collapes"></div>   
+    <!--======================================================-->
+
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-main">
+            <img src="../img/icons/logo2.png" />
+            <div class="free-call-num">
+                <span>拨打免费电话</span>
+                <span>0800 081 032</span>
+            </div>
+
+            <div class="footer-sitemap">
+                <a>房车</a><span> • </span>
+                <a>优惠</a><span> • </span>
+                <a>分店位置</a><span> • </span>
+                <a>关于我们</a><span> • </span>
+                <a>联系我们</a>
+            </div>
+            <div class="copy-right">2004-2015 © 布里茨™ britz.com.cn All rights reserved. 京ICP备12003524号  京公网安备11010502023470  京ICP证140673号</div>
+        </div>
+
+        <div class="footer-bottom">
+            <img style="float:right" src="../img/icons/drive-safe-logo.png"/>
+            <img style="float:left" src="../img/icons/footer_logos.png"/>
+
+        </div>
+    </footer>
+
+
+
+</div>
+
+<!-- =================MAIN BODY END===================== -->
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+<script>
+
+
+
+</script>
+
+
